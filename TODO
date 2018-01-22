@@ -1,0 +1,41 @@
+simulateur : complètement aléatoire ? from Irish dataset ?
+wmtsa : wavBootstrap
+wavelets methods in statistics with R - p180
+
+Essayer distance wdist du package biwavelet ?
+
+geometric structure of high dim data and dim reduction 2011
+
+Piste à explorer pour les comparaisons: H20
+
+renvoyer nombre d'individues par classe ?
+hypothèse : données déjà ordonnées 48 1/2H sur 365j
+utiliser mixmod avec modèles allongés
+doit tourner sur machine plutôt standard, utilisateur "lambda"
+
+#https://stat.ethz.ch/pipermail/r-help/2011-June/280133.html
+#randCov = function(d)
+#{
+#	x <- matrix(rnorm(d*d), nrow=d)
+#	x <- x / sqrt(rowSums(x^2))
+#	x %*% t(x)
+#}
+
+#TODO: map-reduce more appropriate R/clustering.R ligne 88
+
+#TODO: use dbs(),
+		#https://www.r-bloggers.com/debugging-parallel-code-with-dbs/
+		#http://gforge.se/2015/02/how-to-go-parallel-in-r-basics-tips/
+
+PLOT:
+plot manifold 2D distances WER /
+fenetre tempo forme des courbes /
+medoids /
+gain en prevision: clust puis full --> enercast
+
+réduire taille 17519 trop long ?
+
+TODO: revoir les arguments, simplifier (dans les clustering...),
+
+#si pas lissage --> on doit trouver 1 : TOCHECK
+#regarder biwavelets smooth.wavelet : s'en inspirer

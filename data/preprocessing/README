@@ -1,0 +1,4 @@
+Converter from raw by-columns CSV format to by-rows CSV file
+(much smaller), as epclust::claws() expect as CSV input.
+
+Dependency: cgds, https://git.auder.net/?p=cgds.git

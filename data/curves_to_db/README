@@ -1,0 +1,20 @@
+0] Precondition: current folder, containing init_db.sql and curves2db.R
+   must be readable by the postgres user (some other weird restrictions ...)
+
+1] Initialization:
+  a) log in as postgres user:
+	      sudo -i -u postgres
+	b) launch PostgreSQL shell:
+	      psql
+	c) execute init script:
+	      \i /path/to/init_db.sql
+
+2] Launch DB-filling script:
+  a) check/tune parameters at the beginning of curves2db.R
+	b) run the script
+
+=====
+
+WARNING: very slow for large datasets
+
+read_db.R: example usage to read curves from DB

@@ -1,0 +1,19 @@
+Available dataset: data.london.gov.uk/dataset/smartmeter-energy-use-data-in-london-households
+
+Power-Networks-LCL-June2015(withAcornGps)	meter reading
+
+########################################################################
+
+Australian smart-city dataset:
+data.gouv.au/dataset/smart-grid-smart-city-customer-trial-data
+Now unavailable, but maybe some hope https://data.gov.au/datarequest/98266a0b-6e0c-4092-9e3b-9e3b4cab20ad
+
+CDINTERVALREADINGALLNOQUOTES.CSV.7z     meter reading
+sgsc-cthanplug-readings.7z              Home Aread Network Plug readings
+
+########################################################################
+
+EDF data (undisclosed)
+2009.rar				25K data for year 2009
+2010.rar				25K data for year 2010
+2011.zip				25K data for year 2011
